@@ -1,0 +1,8 @@
+C:\Jeferson\VTEX\Integrador\Integrador\bin\x64\Release\Integrador.exe.config
+C:\Jeferson\VTEX\Integrador\Integrador\bin\x64\Release\Integrador.exe
+C:\Jeferson\VTEX\Integrador\Integrador\bin\x64\Release\Integrador.pdb
+C:\Jeferson\VTEX\Integrador\Integrador\obj\x64\Release\Integrador.ProjectInstaller.resources
+C:\Jeferson\VTEX\Integrador\Integrador\obj\x64\Release\Integrador.csproj.GenerateResource.cache
+C:\Jeferson\VTEX\Integrador\Integrador\obj\x64\Release\Integrador.csproj.CoreCompileInputs.cache
+C:\Jeferson\VTEX\Integrador\Integrador\obj\x64\Release\Integrador.exe
+C:\Jeferson\VTEX\Integrador\Integrador\obj\x64\Release\Integrador.pdb

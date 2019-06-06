@@ -1,0 +1,109 @@
+﻿Instalando o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Instalando o serviço IntegradorVTEX...
+Criando a origem de EventLog IntegradorVTEX no log Application...
+Revertendo o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Restaurando o log de eventos para o estado anterior da origem IntegradorVTEX.
+Ocorreu uma exceção durante a fase de reversão do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security, State.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Instalando o serviço IntegradorVTEX...
+Criando a origem de EventLog IntegradorVTEX no log Application...
+Revertendo o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Restaurando o log de eventos para o estado anterior da origem IntegradorVTEX.
+Ocorreu uma exceção durante a fase de reversão do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security, State.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Instalando o serviço IntegradorVTEX...
+Criando a origem de EventLog IntegradorVTEX no log Application...
+Revertendo o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Restaurando o log de eventos para o estado anterior da origem IntegradorVTEX.
+Ocorreu uma exceção durante a fase de reversão do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security, State.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Instalando o serviço IntegradorVTEX...
+Criando a origem de EventLog IntegradorVTEX no log Application...
+Revertendo o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Restaurando o log de eventos para o estado anterior da origem IntegradorVTEX.
+Ocorreu uma exceção durante a fase de reversão do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security, State.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Instalando o serviço IntegradorVTEX...
+Criando a origem de EventLog IntegradorVTEX no log Application...
+Revertendo o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Restaurando o log de eventos para o estado anterior da origem IntegradorVTEX.
+Ocorreu uma exceção durante a fase de reversão do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security, State.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Instalando o serviço IntegradorVTEX...
+Criando a origem de EventLog IntegradorVTEX no log Application...
+Revertendo o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Restaurando o log de eventos para o estado anterior da origem IntegradorVTEX.
+Ocorreu uma exceção durante a fase de reversão do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security, State.
+Ocorreu uma exceção durante a fase de reversão da instalação. Essa exceção será ignorada e a reversão continuará. Mas talvez o computador não reverta totalmente para o estado inicial após a conclusão da reversão.
+Instalando o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Instalando o serviço IntegradorVTEX...
+Serviço IntegradorVTEX foi instalado com êxito.
+Criando a origem de EventLog IntegradorVTEX no log Application...
+Confirmando o assembly 'C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
