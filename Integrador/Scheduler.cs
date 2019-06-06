@@ -8,6 +8,7 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
+using System.Configuration;
 
 namespace Integrador
 {
@@ -20,6 +21,7 @@ namespace Integrador
         }
 
         public void TesteWriter() {
+            string _teste = ConfigurationManager.AppSettings["teste"];
             Util.Log.WriteErrorLog("Testando LOG");
         }
         protected override void OnStart(string[] args)
