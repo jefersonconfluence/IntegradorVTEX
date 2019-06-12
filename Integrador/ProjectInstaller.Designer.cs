@@ -39,7 +39,7 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.ServiceName = "IntegradorVTEX";
+            this.serviceInstaller1.ServiceName = "IntegradorVTEX2";
             // 
             // ProjectInstaller
             // 

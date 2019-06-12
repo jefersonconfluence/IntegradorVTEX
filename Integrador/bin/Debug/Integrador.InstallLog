@@ -107,3 +107,16 @@ Parâmetros afetados são:
    logtoconsole = 
    logfile = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.InstallLog
    assemblypath = C:\Jeferson\VTEX\Integrador\Integrador\bin\Debug\Integrador.exe
+Instalando o assembly 'C:\Jeferson\VTEX\IntegradorVTEX\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\IntegradorVTEX\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\IntegradorVTEX\Integrador\bin\Debug\Integrador.exe
+Instalando o serviço IntegradorVTEX...
+Serviço IntegradorVTEX foi instalado com êxito.
+Criando a origem de EventLog IntegradorVTEX no log Application...
+Confirmando o assembly 'C:\Jeferson\VTEX\IntegradorVTEX\Integrador\bin\Debug\Integrador.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Jeferson\VTEX\IntegradorVTEX\Integrador\bin\Debug\Integrador.InstallLog
+   assemblypath = C:\Jeferson\VTEX\IntegradorVTEX\Integrador\bin\Debug\Integrador.exe

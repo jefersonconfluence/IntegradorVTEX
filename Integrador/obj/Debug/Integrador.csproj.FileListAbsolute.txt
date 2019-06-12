@@ -7,3 +7,12 @@ C:\Jeferson\VTEX\Integrador\Integrador\obj\Debug\Integrador.csproj.CoreCompileIn
 C:\Jeferson\VTEX\Integrador\Integrador\obj\Debug\Integrador.exe
 C:\Jeferson\VTEX\Integrador\Integrador\obj\Debug\Integrador.pdb
 C:\Jeferson\VTEX\Integrador\Integrador\obj\Debug\Integrador.csprojAssemblyReference.cache
+C:\Jeferson\VTEX\IntegradorVTEX\Integrador\bin\Debug\Integrador.exe.config
+C:\Jeferson\VTEX\IntegradorVTEX\Integrador\bin\Debug\Integrador.exe
+C:\Jeferson\VTEX\IntegradorVTEX\Integrador\bin\Debug\Integrador.pdb
+C:\Jeferson\VTEX\IntegradorVTEX\Integrador\obj\Debug\Integrador.csprojAssemblyReference.cache
+C:\Jeferson\VTEX\IntegradorVTEX\Integrador\obj\Debug\Integrador.ProjectInstaller.resources
+C:\Jeferson\VTEX\IntegradorVTEX\Integrador\obj\Debug\Integrador.csproj.GenerateResource.cache
+C:\Jeferson\VTEX\IntegradorVTEX\Integrador\obj\Debug\Integrador.csproj.CoreCompileInputs.cache
+C:\Jeferson\VTEX\IntegradorVTEX\Integrador\obj\Debug\Integrador.exe
+C:\Jeferson\VTEX\IntegradorVTEX\Integrador\obj\Debug\Integrador.pdb
