@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace IntegradorAticOs.DAL
+namespace Integrador.DAL
 {
     public class BaseUDO
     {

@@ -27,7 +27,7 @@ namespace Integrador
         public void TesteWriter()
         {
             
-            Util.Log.WriteErrorLog("Testando LOG");
+            Util.Log.WriteLog("Testando LOG");
 
             Repositorio repositorio = new Repositorio();
             //repositorio.BuscarNovosClientes(DateTime.Now.ToString("s") + "Z");
@@ -47,7 +47,7 @@ namespace Integrador
                 this.timer.Elapsed += new System.Timers.ElapsedEventHandler(this.timer_Tick);
                 
                 
-                Util.Log.WriteErrorLog(" #### Integração Inicializada.");
+                Util.Log.WriteLog(" #### Integração Inicializada.");
 
             }
             catch (Exception)
@@ -58,13 +58,16 @@ namespace Integrador
 
         private void timer_Tick(object sender, ElapsedEventArgs e)
         {
-            Util.Log.WriteErrorLog("Chamou método.");
+            Util.Log.WriteLog("Chamou método.");
 
             try
             {
                 IntegracaoService integracaoService = new IntegracaoService();
 
                 integracaoService.IniciarProcesso(Environment.GetEnvironmentVariable("controleExecucao"));
+
+                //Atualizando variavel de ambiente para controle da integração
+                Environment.SetEnvironmentVariable("controleExecucao", DateTime.Now.ToString("s") + "Z");
 
             }
             catch (Exception)
@@ -79,7 +82,7 @@ namespace Integrador
         protected override void OnStop()
         {
             timer.Enabled = false;
-            Util.Log.WriteErrorLog(" #### Integração Finalizada.");
+            Util.Log.WriteLog(" #### Integração Finalizada.");
         }
     }
 }

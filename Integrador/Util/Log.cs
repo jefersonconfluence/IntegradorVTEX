@@ -10,7 +10,7 @@ namespace Integrador.Util
     public static class Log
     {
         //Método responsável por gravar no arquivo de log
-        public static void WriteErrorLog(string message) {
+        public static void WriteLog(string message) {
             StreamWriter sw = null;
             try
             {

@@ -1,6 +1,7 @@
-﻿using System.Configuration;
+﻿using Integrador.Util;
+using System.Configuration;
 
-namespace IntegradorAticOs.DAL
+namespace Integrador.DAL
 {
     public class CommonConn
     {
@@ -12,7 +13,7 @@ namespace IntegradorAticOs.DAL
             oCompany.Server = ConfigurationManager.AppSettings["Server"];
             oCompany.language = SAPbobsCOM.BoSuppLangs.ln_English;
             oCompany.UseTrusted = false;
-            oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2016;
+            oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_HANADB;
             oCompany.CompanyDB = ConfigurationManager.AppSettings["CompanyDB"];
             oCompany.UserName = ConfigurationManager.AppSettings["UserName"];
             oCompany.Password = ConfigurationManager.AppSettings["UserPass"];
@@ -32,9 +33,7 @@ namespace IntegradorAticOs.DAL
                 string temp_string = "";
                 oCompany.GetLastError(out temp_int, out temp_string);
 
-                LogDAL log = new LogDAL();
-
-                log.WriteEntry(temp_string);
+                Log.WriteLog("InitializeCompany Error: "+temp_string);
             }
         }
 

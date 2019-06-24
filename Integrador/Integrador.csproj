@@ -56,6 +56,9 @@
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="SAPBusinessOneSDK">
+      <HintPath>..\..\SAPBusinessOneSDK.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.Install" />
@@ -72,6 +75,18 @@
   <ItemGroup>
     <Compile Include="Business\IntegracaoService.cs" />
     <Compile Include="Business\Repositorio.cs" />
+    <Compile Include="DAL\BaseUDO.cs" />
+    <Compile Include="DAL\BranchDAL.cs" />
+    <Compile Include="DAL\BusinessLineDAL.cs" />
+    <Compile Include="DAL\BusinessPartnersDAL.cs" />
+    <Compile Include="DAL\ClientDAL.cs" />
+    <Compile Include="DAL\CommonConn.cs" />
+    <Compile Include="DAL\DraftDAL.cs" />
+    <Compile Include="DAL\ItemDAL.cs" />
+    <Compile Include="DAL\LogDAL.cs" />
+    <Compile Include="DAL\MonitoringDAL.cs" />
+    <Compile Include="DAL\ParameterDAL.cs" />
+    <Compile Include="Entity\BusinessPartner.cs" />
     <Compile Include="Service\BaseService.cs" />
     <Compile Include="Service\Warehouses.cs" />
     <Compile Include="Entity\Cliente.cs" />
@@ -101,8 +116,6 @@
       <DependentUpon>ProjectInstaller.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DAL\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
