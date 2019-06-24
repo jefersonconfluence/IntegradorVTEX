@@ -16,3 +16,6 @@ C:\Jeferson\VTEX\IntegradorVTEX\Integrador\obj\Debug\Integrador.csproj.GenerateR
 C:\Jeferson\VTEX\IntegradorVTEX\Integrador\obj\Debug\Integrador.csproj.CoreCompileInputs.cache
 C:\Jeferson\VTEX\IntegradorVTEX\Integrador\obj\Debug\Integrador.exe
 C:\Jeferson\VTEX\IntegradorVTEX\Integrador\obj\Debug\Integrador.pdb
+C:\Jeferson\VTEX\IntegradorVTEX\Integrador\bin\Debug\Newtonsoft.Json.dll
+C:\Jeferson\VTEX\IntegradorVTEX\Integrador\bin\Debug\Newtonsoft.Json.xml
+C:\Jeferson\VTEX\IntegradorVTEX\Integrador\obj\Debug\Integrador.csproj.CopyComplete

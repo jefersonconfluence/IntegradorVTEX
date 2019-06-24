@@ -22,9 +22,13 @@ namespace Integrador
             };
             ServiceBase.Run(ServicesToRun);
 #else
+            // Debug code: Permite debugar um código sem se passar por um Windows Service.
+            // Defina qual método deseja chamar no inicio do Debug (ex. TesteWriter())
+            // Depois de debugar basta compilar em Release e instalar para funcionar normalmente.
             Scheduler scheduler = new Scheduler();
 
             scheduler.TesteWriter();
+            
 
             System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
 #endif

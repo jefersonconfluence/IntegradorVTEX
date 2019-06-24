@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 using System.Configuration;
+using Integrador.Business;
 
 namespace Integrador
 {
@@ -23,22 +24,29 @@ namespace Integrador
             InitializeComponent();
         }
 
-        //public void TesteWriter() {
-        //    string _teste = ConfigurationManager.AppSettings["teste"];
+        public void TesteWriter()
+        {
             
-        //    Util.Log.WriteErrorLog("Testando LOG");
-        //}
+            Util.Log.WriteErrorLog("Testando LOG");
+
+            Repositorio repositorio = new Repositorio();
+            //repositorio.BuscarNovosClientes(DateTime.Now.ToString("s") + "Z");
+        }
         protected override void OnStart(string[] args)
         {
             try
             {
                 string tempoProcessamento = ConfigurationManager.AppSettings["tempoProcessamento"];
 
+                //Setando variavel de ambiente para controle da integração
+                Environment.SetEnvironmentVariable("controleExecucao", DateTime.Now.ToString("s") + "Z");
+
                 timer = new Timer();
                 this.timer.Interval = Convert.ToInt32(tempoProcessamento); //a cada 30seg
                 timer.Enabled = true;
                 this.timer.Elapsed += new System.Timers.ElapsedEventHandler(this.timer_Tick);
-
+                
+                
                 Util.Log.WriteErrorLog(" #### Integração Inicializada.");
 
             }
@@ -51,6 +59,20 @@ namespace Integrador
         private void timer_Tick(object sender, ElapsedEventArgs e)
         {
             Util.Log.WriteErrorLog("Chamou método.");
+
+            try
+            {
+                IntegracaoService integracaoService = new IntegracaoService();
+
+                integracaoService.IniciarProcesso(Environment.GetEnvironmentVariable("controleExecucao"));
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
             //throw new NotImplementedException();
         }
 
